@@ -45,8 +45,8 @@ const registerUserAndInitiatePayment = async (req, res) => {
       metadata: {
         userId: savedUser._id.toString(),
       },
-      success_url: "https://stemcellcongress.org/payment/success",
-      cancel_url: "https://stemcellcongress.org/payment/cancel",
+      success_url: "https://precision-omics.org/payment/success",
+      cancel_url: "https://precision-omics.org/payment/cancel",
     });
 
     // Save Stripe session details
